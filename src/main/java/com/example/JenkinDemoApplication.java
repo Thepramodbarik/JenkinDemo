@@ -9,7 +9,7 @@ public class JenkinDemoApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(JenkinDemoApplication.class, args);
 
-		System.out.println("jenkin deployment test==11");
+		System.out.println("jenkin deployment test==111");
 	}
 
 }
