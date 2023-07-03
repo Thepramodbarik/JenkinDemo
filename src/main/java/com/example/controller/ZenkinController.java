@@ -20,10 +20,15 @@ public class ZenkinController {
 	public ZenkinEntity save(@RequestBody ZenkinEntity entity) {
 		return service.save(entity);
 	}
-	
+
 	@GetMapping("/get/{id}")
 	public ZenkinEntity getDetails(@PathVariable int id) {
 		return service.getDetails(id);
+	}
+
+	@GetMapping("/print")
+	public String Print() {
+		return "Welcome to Jenkin Application";
 	}
 
 }
